@@ -278,23 +278,23 @@ exports.cfn_deleteUser = functions.https.onCall(async (uid, context) => {
 
 exports.cfn_getUserListBySearching = functions.https.onCall(async (content, context) => {
   if (!authorised(context.auth.token.email)) {
-      if (Constants.DEV) console.log(e);
-      throw new functions.https.HttpsError('permission-denied', 'Only admin may invoke getUserListBySearching function');
+    if (Constants.DEV) console.log(e);
+    throw new functions.https.HttpsError('permission-denied', 'Only admin may invoke getUserListBySearching function');
   }
   const userList = [];
   const MAXRESULTS = 2;
   try {
-      let result = await admin.auth().listUsers(MAXRESULTS);
+    let result = await admin.auth().listUsers(MAXRESULTS);
+    userList.push(...result.users);
+    let nextPageToken = result.pageToken;
+    while (nextPageToken) {
+      result = await admin.auth().listUsers(MAXRESULTS, nextPageToken);
       userList.push(...result.users);
-      let nextPageToken = result.pageToken;
-      while (nextPageToken) {
-          result = await admin.auth().listUsers(MAXRESULTS, nextPageToken);
-          userList.push(...result.users);
-          nextPageToken = result.pageToken;
-      }
-      return userList.filter(user => user.email.startsWith(content));
+      nextPageToken = result.pageToken;
+    }
+    return userList.filter(user => user.email.startsWith(content));
   } catch (e) {
-      if (Constants.DEV) console.log(e);
-      throw new functions.https.HttpsError('internal', `getUserListBySearching failed: ${JSON.stringify(e)}`);
+    if (Constants.DEV) console.log(e);
+    throw new functions.https.HttpsError('internal', `getUserListBySearching failed: ${JSON.stringify(e)}`);
   }
 });
