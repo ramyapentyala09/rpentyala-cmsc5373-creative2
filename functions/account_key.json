@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cmsc5373-ramya-webapps",
+  "private_key_id": "5d496ca3b664cbc45a5c51c4e8ac19c2a2a0c5cf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCgeqzR64maU8QF\neVOz2YlyIlLa0T7Uu/U6S3ZNllaYElctoZX6xlmiSGj2XlhcMVxzqQh9dkaPsHIx\nraZKQQNAjWRtMf0cRnmrgtsiKI5wa2u/gYtvSCiKhhaUDdiY1wfGIIPJG7yAwtLx\nJJ3Hepi8QR5cZxDMMZleQ3xL1tPvjMzn/su063YCH8iw4D4D1STJ0+U8bpe5kiSi\nvjAIMKOpgq0T3qAx8Gexkz8gh1O7yCcsLnVoyf5HvLwVuMX+sBgs4k0phKI68Y6b\nkCH7I8HtaFEq/l4vhIiSMoyoWcxkkUCQodaKPVAqTEuiqmW5TVCg6YVwaM7uEYD7\nN/gvM5mbAgMBAAECggEABp485CHkMqw09XnsWH73+WR0QNUwpT2qZyauoh/E5P7J\nufZjzZHCVgIPjbgI4NRzNfngO5Ob2VgQN7m3lbaJBinC9CGDzuNBKDBN32KS+N4V\nO0nfHDbXmYkNA4Cd82KSE69KgAn6ycg/E97L+vY0oNkN6pK3uhQN7dy3WHQ83rvw\nQvDsmV1OlgkRy53t8PdewJsy+ciQUAjcMcOYWhU7HiZek7d0lCMTWzVbCIXvVz5L\nSa7wc04chz4L03mmGz8MG5/7xcZYI8WesE5MijolvfJdxD9h4XVAH/PSLrhsudGP\nRSYDRHhddfTotlMT8snRwYPno3bvK0bRBl4du5E6oQKBgQDdJ5aJ+GsLlC/XS9VC\nUGQYsR8yKwNxGr4yHCsoMr1jMxmsjqIGtSSuckJeWPxzRQ9uCbO2rwChk8tLEw82\nh9d3feKt0hGg1J7srHt3/QTznYuyVdISNFS+YTNILZPcjFIojFcKKCnLrAQ1ko8G\nnCUOIIJOX5uv8GoEmvbbqWbgeQKBgQC5w7Rv8vuOKGT2g25GA4Bd4mkZ/rUx5UYj\nxa1eZzPDKiqxsFJ+qQlbNRZ03N/g66O7OHwGI1YqPFpo27R776rcq/5I18YkfIbs\n8Pe4bR4jHqY1vVmYR5hqnic1f0MfNzbPdrZBr46OPqWfX/vQFVxSKtxipP22VQD+\nIePUUzKNswKBgGK1/Ndwbjco2YG7c2C6CTOMO2RlFpAxY5tyP0EeBLJ2aItAzsk3\nqTvD/COojGXW+WAgLHrp+dok4aSMyUmJsH7BTaBQF1Y2EQmKo0GXSdKDC4t6Ct3d\nRcYEFKOu1ESozTMUEPWTn7Qs/2P6GqTUpSV9FSxuOEt7f5a2pGC/aA/hAoGBALWh\nu/hF3V6W8njx801zuPyTFu6609HQem8ZpjUKtVrbDNmmLFL51lMeqjFjkWcrH3E8\nfk/GF0a+siuavnL72NVhOgVhLLSaKZbc2WmzD2eJXTxoQoUZY9bDglTVdPy9kNLz\nIKtDCyDb8jbNs7o2WIlirQ+qgQPZQ1o4Krp9Co3vAoGAR7amVyqEjlYAij2+COn3\nFlE8MOOmX07Zfy6nEuDlaMHpqtpHD9T2NtvYQnkPDSgAoDjnqmrS6nZybuzNmY7z\nQfNMiruoNSDUS1WNHqTizVRfQNTTLEqqrQwuaSGfbO89R+oYH7YUl/s+VNlRY7fU\nvkemaWZryMDsSMzh+5c/Xd8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-xq0ut@cmsc5373-ramya-webapps.iam.gserviceaccount.com",
+  "client_id": "115643578756498948139",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-xq0ut%40cmsc5373-ramya-webapps.iam.gserviceaccount.com"
+}
